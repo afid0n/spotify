@@ -2,9 +2,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./src/css/main.css">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Spotify</title>
 </head>
 <body>
+  <header>
+    <div class="logo">
+       <a href="https://open.spotify.com/"><i class="fab fa-spotify"></i> Spotify</a> 
+    </div>
+    <input type="text" class="search" placeholder="search for music">
+    <nav>
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger-menu"><i class="fa-solid fa-bars bars"></i></div>
+    </nav>
+</header>
+<main>
+  <section class="latest-songs">
+  
+      <div class="song-card">
+        <div class="image"> <img src="https://variety.com/wp-content/uploads/2020/06/unnamed-1-2-e1593560403821.jpg" alt="The Weeknd"></div>
+       
+        <div class="song-title">Twenty Eight</div>
+        <div class="artist-name">The Weeknd</div>
+        <audio controls>
+          <source src="song1.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://i.ytimg.com/vi/18tPsjv2kyI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBeSaOUoCa9L-FM1lDQ3n1ncw6INA" alt="weeknd album">
+        </div>
+      </div>
+
+      
+      <div class="song-card">
+        <div class="image"> <img src="https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f" alt="Arctic Monkeys"></div>
+       
+        <div class="song-title">Do I Wanna Know?</div>
+        <div class="artist-name">Arctic Monkeys</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/%22AM%22_%28Arctic_Monkeys%29.jpg" alt="AM">
+        </div>
+      </div>
+
+      
+      <div class="song-card">
+        <div class="image"> <img src="https://cdn-images.dzcdn.net/images/cover/a9d9bda18a953e9ae74e2af5d3d45610/0x1900-000000-80-0-0.jpg" alt="the nbhd"></div>
+       
+        <div class="song-title">W.D.Y.W.F.M</div>
+        <div class="artist-name">The Neighbourhood</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://images.genius.com/384e89225e662195b83ade8b9165a381.660x660x1.jpg" alt="nbhd">
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="image"> <img src="https://hips.hearstapps.com/hmg-prod/images/singer-lana-del-rey-poses-for-a-portrait-during-a-visit-to-news-photo-1590067847.jpg" alt="lana del rey"></div>
+       
+        <div class="song-title">Cherry</div>
+        <div class="artist-name">Lana Del Rey</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://images.genius.com/92e6ef7151a3ece56d2754dd38ef58d3.1000x1000x1.png" alt="lust for life">
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="image"> <img src="https://i.scdn.co/image/ab6761610000e5eb3b2f51bb865ea1d25c236789" alt="anathema"></div>
+       
+        <div class="song-title">Flying</div>
+        <div class="artist-name">Anathema</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://cdn-images.dzcdn.net/images/cover/47a8450f23d05d34142e64958e0ac983/0x1900-000000-80-0-0.jpg" alt="flying">
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="image"> <img src="https://media.gq-magazine.co.uk/photos/5d139d742881cc95de0a88fb/1:1/w_1280,h_1280,c_limit/Frank-Ocean-hp-GQ-19Apr17_b.jpg" alt="frank ocean"></div>
+       
+        <div class="song-title">Frank Ocean</div>
+        <div class="artist-name">Pyramids</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5" alt="Pyramids">
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="image"> <img src="https://cdn-images.dzcdn.net/images/artist/1bcec073ae065a16c79c32eaab5293e8/1900x1900-000000-80-0-0.jpg" alt="chase atlantic"></div>
+       
+        <div class="song-title">Chase Atlantic</div>
+        <div class="artist-name">Swim</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://hypeddit-gates-prod.s3.amazonaws.com/7mjrk6_coverartmanual" alt="swim">
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="image"> <img src="https://www.trixonline.be/images/lightbox/katatonia-2020.jpg" alt="katatonia"></div>
+        <div class="song-title">Katatonia</div>
+        <div class="artist-name">Shifts</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://i1.sndcdn.com/artworks-000164546008-jgk3g4-t500x500.jpg" alt="shifts">
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="image"> <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/12/10/tamino-amir-0235-copy.jpg" alt="Tamino"></div>
+       
+        <div class="song-title">Tamino</div>
+        <div class="artist-name">Sun May Shine</div>
+        <audio controls>
+          <source src="song2.mp3" type="audio/mp3">
+        </audio>
+        <div class="rotate-box">
+          <img src="https://i.scdn.co/image/ab67616d0000b2730bed9affdad909c9c4baf35d" alt="sun may shine">
+        </div>
+      </div>
+  </section>
+
+</main>
   
 </body>
 </html>

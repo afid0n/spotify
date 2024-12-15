@@ -1,0 +1,62 @@
+header {
+    background-color: #1DB954;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    a{
+        color: black;
+    }
+ i {
+    color: black;
+    margin-right: 0.5rem;
+}
+}
+
+.search {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+ a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+&:hover {
+    color: #ddd;
+}
+}
+.burger-menu{
+    display: none;
+ }
+ @media (max-width: 768px) {
+    .list {
+        display: none; 
+    }
+
+    .burger-menu {
+        display: block; 
+       
+    }
+}
